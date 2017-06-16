@@ -1,0 +1,34 @@
+css/stylesheet
+
+a {
+	color: black;}
+
+body {
+	font-family: serif;
+	background-image: url (“images/sourcepainting(300x600).jpg”);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: center center;
+	opacity: 0.15;}
+
+.artist {
+	font-style: italic;}
+
+.composition {
+	font-style: bold;}
+
+.disregarded {
+}
+
+.picture {
+	-moz-box-shadow: 5px 5px 5 px #777777;
+	-
+}
+
+#menu {
+}
+
+#site_name {
+	font-family: 'Volkhov', serif;}
+
+/* I realize that there are several classes specified in the HTML that are not modified here. Truth be told, this is all pretty last minute, and I got a little too ambitious. */
