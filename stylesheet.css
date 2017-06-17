@@ -5,10 +5,9 @@ a {
 
 body {
 	font-family: serif;
-	background-image: url (“images/sourcepainting(300x600).jpg”);
+	background-image: url (“images/sourcepainting(100x200).jpg”);
 	background-repeat: no-repeat;
-	background-attachment: scroll;
-	background-position: center center;
+	background-position: 700px 20px;
 	opacity: 0.15;}
 
 .artist {
@@ -18,11 +17,12 @@ body {
 	font-style: bold;}
 
 .disregarded {
+	border: 1px dotted grey;
 }
 
 .picture {
 	box-shadow: 5px 5px grey;
-}
+	margin: 10px auto;}
 
 #menu {
 }
