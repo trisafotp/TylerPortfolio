@@ -21,8 +21,7 @@ body {
 }
 
 .picture {
-	-moz-box-shadow: 5px 5px 5 px #777777;
-	-
+	box-shadow: 5px 5px grey;
 }
 
 #menu {
