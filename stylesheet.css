@@ -24,6 +24,9 @@ body {
 	box-shadow: 5px 5px grey;
 	margin: 10px auto;}
 
+#futile {
+	border: 3px solid black;}
+
 #menu {
 }
 
