@@ -10,6 +10,12 @@ body {
 	background-position: 700px 20px;
 	opacity: 0.15;}
 
+ul {
+	list-style-type: none;
+	margin: 0
+	padding: 0
+}
+
 .artist {
 	font-style: italic;}
 
@@ -23,6 +29,17 @@ body {
 .picture {
 	box-shadow: 5px 5px grey;
 	margin: 10px auto;}
+
+.nav {
+	display: block;
+	width: 100px;
+	padding: 10px 20px;
+	text-decoration: none;}
+
+.nav:hover {
+	color: white
+	background-color: #333333;
+	}
 
 #futile {
 	border: 3px solid black;}
