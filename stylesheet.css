@@ -1,26 +1,31 @@
-css/stylesheet
+#siteName {
+	font-family: 'Volkhov',serif;
+}
 
 a {
-	color: black;}
+	color: black;
+}
 
 body {
 	font-family: serif;
-	background-image: url (“images/sourcepainting(100x200).jpg”);
+	background-image: url("images/sourcepainting.jpg");
 	background-repeat: no-repeat;
 	background-position: 700px 20px;
-	opacity: 0.15;}
+}
 
 ul {
 	list-style-type: none;
-	margin: 0
-	padding: 0
+	margin: 0;
+	padding: 0;
 }
 
 .artist {
-	font-style: italic;}
+	font-style: italic;
+}
 
 .composition {
-	font-style: bold;}
+	font-style: bold;
+}
 
 .disregarded {
 	border: 1px dotted grey;
@@ -28,26 +33,26 @@ ul {
 
 .picture {
 	box-shadow: 5px 5px grey;
-	margin: 10px auto;}
+	margin: 10px auto;
+}
 
 .nav {
 	display: block;
 	width: 100px;
 	padding: 10px 20px;
-	text-decoration: none;}
-
-.nav:hover {
-	color: white
-	background-color: #333333;
-	}
-
-#futile {
-	border: 3px solid black;}
-
-#menu {
+	text-decoration: none;
+	text-align: center;
 }
 
-#site_name {
-	font-family: 'Volkhov', serif;}
+.nav:hover {
+	color: white;
+	background-color: #333333;
+}
 
-/* I realize that there are several classes specified in the HTML that are not modified here. Truth be told, this is all pretty last minute, and I got a little too ambitious. */
+#futile {
+	border: 3px solid black;
+}
+
+
+
+/* I realize that there are several classes specified in the HTML that are not modified here. */
