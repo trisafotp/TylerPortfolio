@@ -19,9 +19,10 @@
         <!-- End of menu bar code -->
             <h1>Contact</h1>
             <div class="call">
-                <label for=questionAsked>Ask Dr. Seuss a question in the box below, and he’ll rhyme you an answer to the best of his ability.</label>
-                <br /><input type=text id="questionAsked" class="questionAsked" />
-                <input type=submit value=Submit class=“questionSubmitted” />
+              <p>Ask Dr. Seuss a question, and he'll rhyme you an answer to the best of his ability.</p>
+              <input type="text" id="userQuestion" />
+              <button type="submit" id="ask" onclick="channelSeuss()">Ask!</button>
+              <p id="response"></p>
             </div>
             <div class="response">
                 <p class="unwisdom"></p>
