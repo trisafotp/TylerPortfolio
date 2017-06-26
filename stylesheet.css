@@ -10,7 +10,8 @@ body {
 	font-family: serif;
 	background-image: url("images/sourcepainting.jpg");
 	background-repeat: no-repeat;
-	background-position: 700px 20px;
+	background-position: 750px 20px;
+	background-color: rgba(0, 0, 0, 0.05);
 }
 
 ul {
@@ -32,8 +33,7 @@ ul {
 }
 
 .picture {
-	box-shadow: 5px 5px grey;
-	margin: 10px auto;
+	box-shadow: 2px 2px grey;
 }
 
 .nav {
@@ -53,6 +53,8 @@ ul {
 	border: 3px solid black;
 }
 
-
+#gallery {
+	border-style: hidden;
+}
 
 /* I realize that there are several classes specified in the HTML that are not modified here. */
